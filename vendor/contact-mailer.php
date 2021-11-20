@@ -345,7 +345,7 @@ if($_POST)
     if(isset($_POST["userMessage"])) {
         $mail->Body .= "<strong>Message: </strong><br><br><div style='background-color: #EDEFF2;padding:30px 15px;border-radius:10px;min-height:50px;width:90%;'>" . $user_Message . "</div><br>";
     }
-    $mail->Body .= '<strong>Best Regards,</strong><br>';
+    $mail->Body .= '<strong>Ваш клиент,</strong><br>';
 
     if(isset($user_Name)) {
         $mail->Body .= $user_Name . "<br>";
