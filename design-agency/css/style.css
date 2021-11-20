@@ -1508,8 +1508,8 @@ header .navbar-brand img {
 
 .banner-slider .img-object {
     position: absolute;
-    left: 35px;
-    bottom: 12%;
+    left: 20px;
+    bottom: 4%;
     width: 35%;
 }
 
@@ -2079,6 +2079,10 @@ svg.right-square.team {
     width: 90%;
 }
 
+.blog-detail a {
+    margin-bottom: 20px;
+}
+
 .blog-sec .blog-img {
     position: relative;
     width: 90%;
@@ -2231,7 +2235,7 @@ svg.right-square.team {
     text-align: center;
     line-height: 45px;
     border-radius: 50px;
-    font-size: 17px;
+    font-size: 25px;
     margin: 0 10px 0 0;
     border: 1px solid transparent;
     -webkit-transition: background-color .2s ease-in-out;
