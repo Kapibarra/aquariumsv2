@@ -11,7 +11,7 @@ if($_POST)
 
     $mail = new PHPMailer();
 
-    $your_email = "youremail@website.com";
+    $your_email = "nikita.nov2016@yandex.ru";
 
 
     //check if its an ajax request, exit if not
@@ -361,7 +361,7 @@ if($_POST)
         $output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));
         die($output);
     }else{
-        $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_Name .' Thank you for contacting us.'));
+        $output = json_encode(array('type'=>'message', 'text' => 'Привет! '.$user_Name .' Спасибо за заявку, мы скоро Вам позвоним.'));
         die($output);
     }
 }
