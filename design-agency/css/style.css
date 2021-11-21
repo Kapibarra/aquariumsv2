@@ -1289,6 +1289,16 @@ header .navbar-brand img {
     margin-top: -15px;
 }
 
+.menu-text {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
 .menu-company-details span {
     display: block;
     color: #FFFFFF;
@@ -1296,6 +1306,10 @@ header .navbar-brand img {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     margin-bottom: 5px;
+}
+
+.menu-company-details span a:hover {
+    color: black
 }
 
 .social-icons-simple {
