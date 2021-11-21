@@ -11,7 +11,7 @@ if($_POST)
 
     $mail = new PHPMailer();
 
-    $your_email = "nikita.nov2016@yandex.ru";
+    $your_email = "requestcrystalsea@yandex.ru";
 
 
     //check if its an ajax request, exit if not
