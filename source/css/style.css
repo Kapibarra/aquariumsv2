@@ -1538,7 +1538,7 @@ header .navbar-brand img {
 .banner-slider .img-object.right {
     position: absolute;
     right: 35px;
-    bottom: 15%;
+    bottom: 5%;
     left: auto;
     width: 30%;
 }
