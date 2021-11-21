@@ -53,8 +53,10 @@ jQuery(function ($) {
 
                 if ($(this).scrollTop() > 450) { // Set position from top to add class
                     $('.inner-header').addClass('header-appear');
+                    $('.menu-text').removeClass('visible')
                 } else {
                     $('.inner-header').removeClass('header-appear');
+                    $('.menu-text').addClass('unvisible')
                 }
 
         });
