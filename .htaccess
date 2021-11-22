@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^https://crystal-seas.ru/$ [NC]
+RewriteRule ^(.*)$ https://crystal-seas.ru/$1 [R=301,L]
