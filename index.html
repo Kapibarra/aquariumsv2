@@ -729,9 +729,9 @@
                     <form class="row contact-form" id="contact-form-data">
                         <div class="col-sm-12" id="result"></div>
                         <div class="col-12 col-md-5">
-                            <input type="text" name="userName" placeholder="Ваше Имя" class="form-control">
+                            <input type="text" name="userName" placeholder="Ваше Имя" class="form-control" required>
                             <input type="email" name="userEmail" placeholder="E-mail адрес" class="form-control">
-                            <input type="phone" name="userPhone" placeholder="Ваш телефон" class="form-control">
+                            <input type="phone" name="userPhone" placeholder="+ 7 (999) 999-99-99" class="form-control" id="phonenum" required>
                         </div>
                         <div class="col-12 col-md-7">
                             <textarea class="form-control" name="userMessage" rows="6" placeholder="Ваше сообщение"></textarea>
@@ -808,6 +808,7 @@
     <script src="vendor/js/parallaxie.min.js"></script>
     <script src="vendor/js/wow.min.js"></script>
     <script src="vendor/js/jquery.cubeportfolio.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
 
     <!--Tilt Js-->
     <script src="vendor/js/TweenMax.min.js"></script>
