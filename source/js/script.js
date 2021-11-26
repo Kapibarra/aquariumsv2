@@ -66,12 +66,7 @@ jQuery(function ($) {
     //
     // }
 
-const element = document.getElementById('phonenum');
-const maskOptions = {
-  mask: '+{7}(000)000-00-00'
-};
-const mask = IMask(element, maskOptions);
-mask()
+
     /* ===================================
          arrow appear and scroll to top
      ====================================== */
